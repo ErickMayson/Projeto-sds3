@@ -1,10 +1,18 @@
+import NavBar from 'components/NavBar';
 import React from 'react';
+import Footer from "./components/Footer"
+
 
 function App() {
   return (
-    <div>
-      <h1> Hello World!</h1>
-    </div>
+    <>
+      <NavBar />
+      <div className="container">
+        <h1> Hello World!</h1>
+
+      </div>
+      <Footer />
+    </>
   );
 }
 
