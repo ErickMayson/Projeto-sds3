@@ -79,6 +79,14 @@ public class Sale {
 		this.seller = seller;
 	}
 
+	public int getDeals() {
+		return deals;
+	}
+
+	public void setDeals(int deals) {
+		this.deals = deals;
+	}
+
 	
 	
 }
